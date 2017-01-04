@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="231.27119mm"
+   height="110.92546mm"
+   viewBox="0 0 819.46486 393.04297"
+   id="svg4332"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="complexity.svg">
+  <defs
+     id="defs4334">
+    <clipPath
+       style="color:#eeeeee;font-size:30px;line-height:40.24940872px;font-family:'Open Sans', sans-serif;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#eeeeee"
+       id="_ABSTRACT_RENDERER_ID_0">
+      <rect
+         id="rect6"
+         style="color:#eeeeee;font-size:30px;line-height:40.24940872px;font-family:'Open Sans', sans-serif;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#eeeeee"
+         height="349"
+         width="605"
+         y="108"
+         x="178" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="-563.839"
+     inkscape:cy="382.23577"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1600"
+     inkscape:window-height="841"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata4337">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-481.69615,-521.55501)">
+    <g
+       transform="translate(365.16099,421.90501)"
+       id="g8"
+       style="color:#eeeeee;font-size:30px;line-height:40.24940872px;font-family:'Open Sans', sans-serif;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#eeeeee">
+      <rect
+         id="rect10"
+         style="color:#eeeeee;font-size:30px;line-height:40.24940872px;font-family:'Open Sans', sans-serif;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#eeeeee;fill:#ffffff;fill-opacity:0;stroke:none;stroke-width:0px"
+         height="63"
+         width="129"
+         y="108"
+         x="807" />
+      <g
+         id="g12"
+         style="color:#eeeeee;font-size:30px;line-height:40.24940872px;font-family:'Open Sans', sans-serif;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#eeeeee">
+        <rect
+           id="rect14"
+           style="color:#eeeeee;font-size:30px;line-height:40.24940872px;font-family:'Open Sans', sans-serif;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#eeeeee;fill:#ffffff;fill-opacity:0;stroke:none;stroke-width:0px"
+           height="24"
+           width="129"
+           y="108"
+           x="807" />
+        <g
+           id="g16"
+           style="color:#eeeeee;font-size:30px;line-height:40.24940872px;font-family:'Open Sans', sans-serif;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#eeeeee">
+          <text
+             id="text18"
+             style="color:#eeeeee;font-size:24px;line-height:32.19952774px;font-family:Arial;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#eeeeee;text-anchor:start;white-space:nowrap;display:block;fill:#ffffff;stroke:none;stroke-width:0px"
+             font-size="24"
+             y="128.39999"
+             x="840">O(n)</text>
+        </g>
+        <rect
+           id="rect20"
+           style="color:#eeeeee;font-size:30px;line-height:40.24940872px;font-family:'Open Sans', sans-serif;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#eeeeee;fill:#3366cc;stroke:none;stroke-width:0px"
+           height="24"
+           width="24"
+           y="108"
+           x="807" />
+      </g>
+      <g
+         id="g22"
+         style="color:#eeeeee;font-size:30px;line-height:40.24940872px;font-family:'Open Sans', sans-serif;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#eeeeee">
+        <rect
+           id="rect24"
+           style="color:#eeeeee;font-size:30px;line-height:40.24940872px;font-family:'Open Sans', sans-serif;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#eeeeee;fill:#ffffff;fill-opacity:0;stroke:none;stroke-width:0px"
+           height="24"
+           width="129"
+           y="147"
+           x="807" />
+        <g
+           id="g26"
+           style="color:#eeeeee;font-size:30px;line-height:40.24940872px;font-family:'Open Sans', sans-serif;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#eeeeee">
+          <text
+             id="text28"
+             style="color:#eeeeee;font-size:24px;line-height:32.19952774px;font-family:Arial;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#eeeeee;text-anchor:start;white-space:nowrap;display:block;fill:#ffffff;stroke:none;stroke-width:0px"
+             font-size="24"
+             y="167.39999"
+             x="840">O(n²)</text>
+        </g>
+        <rect
+           id="rect30"
+           style="color:#eeeeee;font-size:30px;line-height:40.24940872px;font-family:'Open Sans', sans-serif;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#eeeeee;fill:#dc3912;stroke:none;stroke-width:0px"
+           height="24"
+           width="24"
+           y="147"
+           x="807" />
+      </g>
+    </g>
+    <g
+       transform="translate(365.16099,421.90501)"
+       id="g32"
+       style="color:#eeeeee;font-size:30px;line-height:40.24940872px;font-family:'Open Sans', sans-serif;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#eeeeee">
+      <rect
+         id="rect34"
+         style="color:#eeeeee;font-size:30px;line-height:40.24940872px;font-family:'Open Sans', sans-serif;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#eeeeee;fill:#ffffff;fill-opacity:0;stroke:none;stroke-width:0px"
+         height="349"
+         width="605"
+         y="108"
+         x="178" />
+      <g
+         id="g36"
+         style="color:#eeeeee;font-size:30px;line-height:40.24940872px;font-family:'Open Sans', sans-serif;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#eeeeee"
+         clip-path="url(#_ABSTRACT_RENDERER_ID_0)">
+        <g
+           id="g38"
+           style="color:#eeeeee;font-size:30px;line-height:40.24940872px;font-family:'Open Sans', sans-serif;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#eeeeee">
+          <rect
+             id="rect40"
+             style="color:#eeeeee;font-size:30px;line-height:40.24940872px;font-family:'Open Sans', sans-serif;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#eeeeee;fill:#333333;stroke:none;stroke-width:0px"
+             height="349"
+             width="1"
+             y="108"
+             x="178" />
+          <rect
+             id="rect42"
+             style="color:#eeeeee;font-size:30px;line-height:40.24940872px;font-family:'Open Sans', sans-serif;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#eeeeee;fill:#333333;stroke:none;stroke-width:0px"
+             height="1"
+             width="605"
+             y="456"
+             x="178" />
+        </g>
+        <g
+           id="g44"
+           style="color:#eeeeee;font-size:30px;line-height:40.24940872px;font-family:'Open Sans', sans-serif;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#eeeeee">
+          <path
+             inkscape:connector-curvature="0"
+             id="path46"
+             style="color:#eeeeee;font-size:30px;line-height:40.24940872px;font-family:'Open Sans', sans-serif;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#eeeeee;fill:none;fill-opacity:1;stroke:#3366cc;stroke-width:5px"
+             d="m 178.5,456.5 60.4,-3.48 60.4,-3.48 60.4,-3.48 60.4,-3.48 60.4,-3.48 60.4,-3.48 60.4,-3.48 60.4,-3.48 60.4,-3.48 60.4,-3.48" />
+          <path
+             inkscape:connector-curvature="0"
+             id="path48"
+             style="color:#eeeeee;font-size:30px;line-height:40.24940872px;font-family:'Open Sans', sans-serif;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#eeeeee;fill:none;fill-opacity:1;stroke:#dc3912;stroke-width:5;stroke-miterlimit:4;stroke-dasharray:none"
+             d="m 178.5,456.5 60.4,-3.48 60.4,-10.44 60.4,-17.4 60.4,-24.36 60.4,-31.32 60.4,-38.28 60.4,-45.24 60.4,-52.2 60.4,-59.16 60.4,-66.12" />
+        </g>
+      </g>
+      <g
+         id="g50"
+         style="color:#eeeeee;font-size:30px;line-height:40.24940872px;font-family:'Open Sans', sans-serif;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#eeeeee" />
+      <g
+         id="g52"
+         style="color:#eeeeee;font-size:30px;line-height:40.24940872px;font-family:'Open Sans', sans-serif;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#eeeeee">
+        <g
+           id="g54"
+           style="color:#eeeeee;font-size:30px;line-height:40.24940872px;font-family:'Open Sans', sans-serif;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#eeeeee">
+          <text
+             id="text56"
+             style="color:#eeeeee;font-size:24px;line-height:32.19952774px;font-family:Arial;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#eeeeee;text-anchor:middle;white-space:nowrap;display:block;fill:#ffffff;stroke:none;stroke-width:0px"
+             font-size="24"
+             y="492.39999"
+             x="238.89999">1</text>
+        </g>
+        <g
+           id="g58"
+           style="color:#eeeeee;font-size:30px;line-height:40.24940872px;font-family:'Open Sans', sans-serif;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#eeeeee">
+          <text
+             id="text60"
+             style="color:#eeeeee;font-size:24px;line-height:32.19952774px;font-family:Arial;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#eeeeee;text-anchor:middle;white-space:nowrap;display:block;fill:#ffffff;stroke:none;stroke-width:0px"
+             font-size="24"
+             y="492.39999"
+             x="420.10001">4</text>
+        </g>
+        <g
+           id="g62"
+           style="color:#eeeeee;font-size:30px;line-height:40.24940872px;font-family:'Open Sans', sans-serif;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#eeeeee">
+          <text
+             id="text64"
+             style="color:#eeeeee;font-size:24px;line-height:32.19952774px;font-family:Arial;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#eeeeee;text-anchor:middle;white-space:nowrap;display:block;fill:#ffffff;stroke:none;stroke-width:0px"
+             font-size="24"
+             y="492.39999"
+             x="601.29999">7</text>
+        </g>
+        <g
+           id="g66"
+           style="color:#eeeeee;font-size:30px;line-height:40.24940872px;font-family:'Open Sans', sans-serif;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#eeeeee">
+          <text
+             id="text68"
+             style="color:#eeeeee;font-size:24px;line-height:32.19952774px;font-family:Arial;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#eeeeee;text-anchor:middle;white-space:nowrap;display:block;fill:#ffffff;stroke:none;stroke-width:0px"
+             font-size="24"
+             y="492.39999"
+             x="782.5">10</text>
+        </g>
+        <g
+           id="g70"
+           style="color:#eeeeee;font-size:30px;line-height:40.24940872px;font-family:'Open Sans', sans-serif;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#eeeeee">
+          <text
+             id="text72"
+             style="color:#eeeeee;font-size:24px;line-height:32.19952774px;font-family:Arial;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#eeeeee;text-anchor:end;white-space:nowrap;display:block;fill:#ffffff;stroke:none;stroke-width:0px"
+             font-size="24"
+             y="464.89999"
+             x="154">0</text>
+        </g>
+        <g
+           id="g74"
+           style="color:#eeeeee;font-size:30px;line-height:40.24940872px;font-family:'Open Sans', sans-serif;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#eeeeee">
+          <text
+             id="text76"
+             style="color:#eeeeee;font-size:24px;line-height:32.19952774px;font-family:Arial;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#eeeeee;text-anchor:end;white-space:nowrap;display:block;fill:#ffffff;stroke:none;stroke-width:0px"
+             font-size="24"
+             y="377.89999"
+             x="154">25</text>
+        </g>
+        <g
+           id="g78"
+           style="color:#eeeeee;font-size:30px;line-height:40.24940872px;font-family:'Open Sans', sans-serif;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#eeeeee">
+          <text
+             id="text80"
+             style="color:#eeeeee;font-size:24px;line-height:32.19952774px;font-family:Arial;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#eeeeee;text-anchor:end;white-space:nowrap;display:block;fill:#ffffff;stroke:none;stroke-width:0px"
+             font-size="24"
+             y="290.89999"
+             x="154">50</text>
+        </g>
+        <g
+           id="g82"
+           style="color:#eeeeee;font-size:30px;line-height:40.24940872px;font-family:'Open Sans', sans-serif;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#eeeeee">
+          <text
+             id="text84"
+             style="color:#eeeeee;font-size:24px;line-height:32.19952774px;font-family:Arial;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#eeeeee;text-anchor:end;white-space:nowrap;display:block;fill:#ffffff;stroke:none;stroke-width:0px"
+             font-size="24"
+             y="203.89999"
+             x="154">75</text>
+        </g>
+        <g
+           id="g86"
+           style="color:#eeeeee;font-size:30px;line-height:40.24940872px;font-family:'Open Sans', sans-serif;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#eeeeee">
+          <text
+             id="text88"
+             style="color:#eeeeee;font-size:24px;line-height:32.19952774px;font-family:Arial;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#eeeeee;text-anchor:end;white-space:nowrap;display:block;fill:#ffffff;stroke:none;stroke-width:0px"
+             font-size="24"
+             y="116.9"
+             x="154">100</text>
+        </g>
+      </g>
+    </g>
+    <g
+       transform="translate(365.16099,421.90501)"
+       id="g90"
+       style="color:#eeeeee;font-size:30px;line-height:40.24940872px;font-family:'Open Sans', sans-serif;text-align:center;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#eeeeee" />
+  </g>
+</svg>

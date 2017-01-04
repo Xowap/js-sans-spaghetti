@@ -7,7 +7,9 @@
     <title>reveal.js</title>
 
     <link rel="stylesheet" href="css/reveal.css">
-    <link rel="stylesheet" href="css/theme/black.css">
+    <link rel="stylesheet" href="css/theme/night.css">
+    <link rel="stylesheet" href="css/extra.css">
+    <link rel="stylesheet" href="css/flexboxgrid.css">
 
     <!-- Theme used for syntax highlighting of code -->
     <link rel="stylesheet" href="lib/css/zenburn.css">
@@ -24,8 +26,1320 @@
 <body>
 <div class="reveal">
     <div class="slides">
-        <section>Slide 1</section>
-        <section>Slide 2</section>
+        <section>
+            <h1>Javascript</h1>
+
+            <h3>Sans spaghetti</h3>
+
+            <p>
+                <small>
+                    Par <a href="http://hyperthese.net/">Rémy Sanchez</a> /
+                    <a href="http://twitter.com/Xowap">@Xowap</a>
+                </small>
+            </p>
+        </section>
+
+        <section>
+            <h2>Leçon n°1</h2>
+
+            <p>Remettez en question ce qu'on vous dit</p>
+        </section>
+
+        <section>
+            <h2>Moi</h2>
+
+            <ul>
+                <li>Rémy Sanchez</li>
+                <li>Co-fondateur de Good Morning Planet</li>
+                <li>Co-fondateur de moshi moshi paris</li>
+                <li>
+                    Sur les réseaux sociaux&nbsp;:
+                    <ul>
+                        <li><strong>Twitter</strong> <a href="https://twitter.com/Xowap"
+                                                        target="_blank">@Xowap</a></li>
+                        <li><strong>GitHub</strong> <a href="https://github.com/Xowap"
+                                                       target="_blank">github.com/Xowap</a></li>
+                        <li><strong>Blog</strong> <a href="http://hyperthese.net/" target="_blank">hyperthese.net</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Au programme</h2>
+
+            <ol>
+                <li>Javascript &mdash; Le Langage Incompris</li>
+                <li>La Syntaxe</li>
+                <li>Les Design Patterns</li>
+                <li>Les Outils</li>
+                <li>La Documentation</li>
+            </ol>
+        </section>
+
+        <section>
+            <section>
+                <h1>Javascript</h1>
+                <h2>Le Langage Incompris</h2>
+            </section>
+
+            <section>
+                <h2>Un peu de maths</h2>
+
+                <pre class="fragment"><code>> '5' - 3</code></pre>
+                <pre class="fragment"><code>2</code></pre>
+                <pre class="fragment"><code>> '5' + 3</code></pre>
+                <pre class="fragment"><code>'53'</code></pre>
+                <pre class="fragment"><code>> '5' + + '5'</code></pre>
+                <pre class="fragment"><code>55</code></pre>
+            </section>
+
+            <section data-background="img/duck.jpg"></section>
+        </section>
+
+        <section>
+            <h2>Javascript comme Java</h2>
+
+            <ul>
+                <li>Nom initial de Javascript: LiveScript</li>
+                <li>
+                    Origine différente
+                    <ul>
+                        <li><strong>Java</strong> = Sun Microsystems</li>
+                        <li><strong>Javascript</strong> = Netscape</li>
+                    </ul>
+                </li>
+                <li>Javascript triomphe où les applets Java ont échoué</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Descendance du C</h2>
+
+            <ul>
+                <li>Syntaxe comme le C</li>
+                <li>Concepts du Lisp</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Mal conçu</h2>
+
+            <ul>
+                <li>Oui</li>
+                <li>Mais ça change&nbsp;: ES5, ES6, ESnext</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Langage du dimanche</h2>
+
+            <ul>
+                <li>Très pratique par les amateurs</li>
+                <li>Mauvaise réputation chez les développeurs</li>
+                <li>Néamoins apte au développement professionnel</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Programmation objet bizarre</h2>
+
+            <ul>
+                <li>Des objets mais pas des classes</li>
+                <li>Concepts différents de Java ou C++</li>
+                <li>Design patterns différents</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Mauvaise Documentation</h2>
+
+            <ul>
+                <li>Le standard est infâme</li>
+                <li>Beaucoup de livres sont mauvais</li>
+                <li>Ne parlons pas des tutos</li>
+            </ul>
+        </section>
+
+        <section data-background-video="img/citadel.mp4">
+            <h2>Juste bon à faire tomber de la neige</h2>
+            <h3>(version année 2000)</h3>
+
+            <ul>
+                <li>reveal.js</li>
+                <li>asm.js</li>
+                <li>Emscripten</li>
+                <li>Shumway</li>
+                <li>Fayde</li>
+                <li><a href="https://www.youtube.com/watch?v=l9KRBuVBjVo">Epic Citadel</a></li>
+                <li>jslinux</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Je n'aime pas Javascript</h2>
+
+            <ul>
+                <li>
+                    Mais il est suffisant
+                    <ul>
+                        <li>Turing-complet</li>
+                        <li>Toujours mieux que Brainfuck</li>
+                    </ul>
+                </li>
+                <li>Et il est partout</li>
+                <li>Et pas si mauvais</li>
+                <li>On passe plus de temps à réfléchir qu'à coder</li>
+            </ul>
+        </section>
+
+        <section>
+            <section>
+                <h1>La Syntaxe</h1>
+            </section>
+
+            <section>
+                <h2>Encore des maths</h2>
+
+                <pre class="fragment"><code>> 'foo' + + 'foo'</code></pre>
+                <pre class="fragment"><code>'fooNaN'</code></pre>
+                <pre class="fragment"><code>> '5' + - '2'</code></pre>
+                <pre class="fragment"><code>'5-2'</code></pre>
+                <pre class="fragment"><code>> '5' + - + - - + - - + + - + - + - + - - - '-2'</code></pre>
+                <pre class="fragment"><code>'52'</code></pre>
+            </section>
+
+            <section data-background="img/wat.jpg"></section>
+        </section>
+
+        <section>
+            <section>
+                <h2>De l'importance du formattage</h2>
+            </section>
+
+            <section>
+                <h2>Que fait ce code&nbsp;?</h2>
+
+                <pre><code data-trim>
+function get( num ) {
+        return num != null ?
+
+                // Return just the one element from the set
+                ( num < 0 ? this[ num + this.length ] : this[ num ] ) :
+
+                // Return all the elements in a clean array
+                slice.call( this );
+}
+                </code></pre>
+            </section>
+
+            <section>
+                <h2>Et celui-là&nbsp;?</h2>
+
+                <pre><code data-trim>
+function get(num) {
+    if (num !== null) {
+        if (num < 0) {
+            return this[num + this.length];
+        }
+
+        return this[num];
+    }
+
+    return slice.call(this);
+}
+                </code></pre>
+            </section>
+
+            <section>
+                <h2>Style corporate</h2>
+
+                <p>Pourquoi est-ce que tout le monde roule à droite&nbsp;?</p>
+
+                <div class="fragment">
+                    <p>Si tout le monde utilise le même style&nbsp;:</p>
+
+                    <ul>
+                        <li>Repères visuels</li>
+                        <li>Prédictibilité</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section>
+                <h2>Orthographe et sémantique</h2>
+
+                <ul>
+                    <li>Donner des noms qui ont du sens</li>
+                    <li>En anglais, vérifier la traduction</li>
+                    <li>Vérification orthographique évite fautes de frappe</li>
+                </ul>
+            </section>
+
+            <section data-background="img/punchcard.jpg">
+                <h2>Mythe de l'économie de caractères</h2>
+
+                <ul>
+                    <li>Date des cartes perforées</li>
+                    <li>Aucune médaille à gagner</li>
+                    <li>Fait du mal au compilateur</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Mythe de la performance</h2>
+
+                <img class="stretch" src="img/perfgraph.svg" alt=""/>
+            </section>
+
+            <section>
+                <h2>Complexité algorithmique</h2>
+
+                <img class="stretch" src="img/complexity.svg" alt="" style="border: none; background: none; box-shadow: none;"/>
+            </section>
+
+            <section>
+                <h2>Démo Optimisation</h2>
+
+                <p>
+                    Démo sur <a href="http://codepen.io/Xowap/pen/NPYNay?editors=101" target="_blank">CodePen</a>
+                </p>
+            </section>
+        </section>
+
+        <section>
+            <section>
+                <h2>Comment choisir&nbsp;?</h2>
+            </section>
+
+            <section data-background="img/trex.gif">
+                <h2>Pouvez-vous croire votre cerveau&nbsp;?</h2>
+
+                <h3 class="fragment">Pas toujours</h3>
+            </section>
+
+            <section>
+                <h2>Préférez les syntaxes sans confusion</h2>
+
+                <pre><code data-trim class="javascript">
+// Returns undefined
+return
+{
+    ok: false
+}
+
+// Returns what's expected
+return {
+    ok: true
+}
+                </code></pre>
+            </section>
+
+            <section>
+                <h2>«&nbsp;Ça n'arrive presque jamais&nbsp;»</h2>
+                <h3 class="fragment">C'est une autre manière de dire que ça arrive</h3>
+            </section>
+
+            <section>
+                <h2>Un bon style fait de meilleurs programmes</h2>
+                <h3>Ce n'est pas une question d'expression personnelle</h3>
+            </section>
+
+            <section>
+                <h2>LESROMAINSPARLAIENTLATIN</h2>
+                <h3 class="fragment">Mais les copistes ont inventé les minuscules et les espaces</h3>
+            </section>
+
+            <section>
+                <h2>Faut-il un espace&nbsp;?</h2>
+                <h3>Utilisons-le pour repérer les fonctions</h3>
+
+                <pre><code data-trim class="javascript">
+// Good
+var stuff = function () { ...
+if (true) { ...
+function foo(foo, bar) { ...
+foo(arg1, arg2);
+
+// Bad
+foo ();
+return(a+b);
+if(a ===b) { ...
+function(x) {...
+                </code></pre>
+            </section>
+
+            <section>
+                <h2>Simple ou double guillement&nbsp;?</h2>
+
+                <ul>
+                    <li>Aucune différence de performance</li>
+                    <li>Toujours utiliser le même pour les CTRL+F</li>
+                    <li><code>'</code> est plus simple à faire que <code>"</code> sur un QWERTY</li>
+                </ul>
+            </section>
+        </section>
+
+        <section>
+            <section>
+                <h2>Comment choisir&nbsp;?</h2>
+            </section>
+
+            <section data-background="img/trex.gif">
+                <h2>Pouvez-vous croire votre cerveau&nbsp;?</h2>
+
+                <h3 class="fragment">Pas toujours</h3>
+            </section>
+
+            <section>
+                <h2>Préférez les syntaxes sans confusion</h2>
+
+                <pre><code data-trim class="javascript">
+// Returns undefined
+return
+{
+    ok: false
+}
+
+// Returns what's expected
+return {
+    ok: true
+}
+                </code></pre>
+            </section>
+
+            <section>
+                <h2>«&nbsp;Ça n'arrive presque jamais&nbsp;»</h2>
+                <h3 class="fragment">C'est une autre manière de dire que ça arrive</h3>
+            </section>
+
+            <section>
+                <h2>Un bon style fait de meilleurs programmes</h2>
+                <h3>Ce n'est pas une question d'expression personnelle</h3>
+            </section>
+
+            <section>
+                <h2>LESROMAINSPARLAIENTLATIN</h2>
+                <h3 class="fragment">Mais les copistes ont inventé les minuscules et les espaces</h3>
+            </section>
+
+            <section>
+                <h2>Faut-il un espace&nbsp;?</h2>
+                <h3>Utilisons-le pour repérer les fonctions</h3>
+
+                <pre><code data-trim class="javascript">
+// Good
+var stuff = function () { ...
+if (true) { ...
+function foo(foo, bar) { ...
+foo(arg1, arg2);
+
+// Bad
+foo ();
+return(a+b);
+if(a ===b) { ...
+function(x) {...
+                </code></pre>
+            </section>
+
+            <section>
+                <h2>Simple ou double guillement&nbsp;?</h2>
+
+                <ul>
+                    <li>Aucune différence de performance</li>
+                    <li>Toujours utiliser le même pour les CTRL+F</li>
+                    <li><code>'</code> est plus simple à faire que <code>"</code> sur un QWERTY</li>
+                </ul>
+            </section>
+        </section>
+
+        <section>
+            <section>
+                <h2>Quelqu'un a-t-il déjà choisi pour moi ?</h2>
+                <h3>Et est-ce que je peux vérifier mon code automatiquement ?</h3>
+            </section>
+
+            <section data-background="img/magical.jpg">
+                <h1>jslint/eslint</h1>
+                <h3>Tadjaaaaa&nbsp;!</h3>
+            </section>
+
+            <section data-background="img/goodparts.jpg">
+                <h2>jslint</h2>
+
+                <ul>
+                    <li>Limiter aux bons côtés</li>
+                    <li>Très strict</li>
+                    <li>Il va vous vexer</li>
+                    <li>Syndrome des options désactivées</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Exemple</h2>
+
+                <iframe src="http://www.jslint.com/" frameborder="0" class="stretch"></iframe>
+            </section>
+
+            <section>
+                <h2>Utiliser jslint en vrai</h2>
+
+                <ul>
+                    <li>L'interface web est peu pratique</li>
+                    <li>Il existe un outil ligne de commande</li>
+                    <li>De nombreux IDE intègrent directement jslint</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Mais jslint, c'est pour les extrêmistes</h2>
+
+                <ul>
+                    <li>Oui</li>
+                    <li>Il faut être extrêmiste du code</li>
+                    <li>Moins de syntaxe = Moins de prise de tête</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>jslint et ES6</h2>
+
+                <ul>
+                    <li>Assez décorellé de la réalité</li>
+                    <li>Conseil&nbsp;: eslint airbnb style</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>use strict</h2>
+
+                <ul>
+                    <li>Ajout d'ES5</li>
+                    <li>Activé avec une chaîne <code>'use strict';</code></li>
+                    <li>Quand on se trompe, ça plante</li>
+                    <li>Compatible avec ES3</li>
+                    <li>Et d'autres changements</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>inefficient subscripting</h2>
+
+                <ul>
+                    <li>Accès aux membres des objets</li>
+                    <li><strong>Mauvais</strong>&nbsp;: <code>o['foo']</code></li>
+                    <li><strong>Bon</strong>&nbsp;: <code>o.foo</code></li>
+                    <li>Aide le compilateur</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>many vars per function</h2>
+
+                <div>
+                    <p>Piège&nbsp;!</p>
+
+                    <pre><code data-trim>
+function foo() {
+    var a;
+
+    for (var i = 0; i < 10; i += 1) {
+        var b = i * 2;
+        console.log(b);
+    }
+}
+                    </code></pre>
+                </div>
+
+                <div class="fragment">
+                    <p>Équivalent</p>
+
+                    <pre><code data-trim>
+function foo() {
+    var a, b, i;
+
+    for (i = 0; i < 10; i += 1) {
+        b = i * 2;
+        console.log(b);
+    }
+}
+                    </code></pre>
+                </div>
+            </section>
+
+            <section>
+                <h2>Mieux en ES6</h2>
+
+                <pre><code data-trim>
+function foo() {
+    const a;
+
+    for (let i = 0; i < 10; i += 1) {
+        const b = i * 2;
+        console.log(b);
+    }
+}
+                </code></pre>
+            </section>
+
+            <section>
+                <h2>messy white space</h2>
+
+                <p>Syndrôme des copier/coller et des éditeurs mal configurés</p>
+
+                <ul>
+                    <li>Identation incohérente</li>
+                    <li>Affichage variable selon l'IDE</li>
+                    <li>Risque de diff dans un commit</li>
+                    <li>Toute l'équipe doit avoir la mếme configuration
+                        <ul>
+                            <li>Taille d'une tabulation</li>
+                            <li>Espaces vs. Tabulations</li>
+                            <li>Effaçage des caractères blanc en fin de ligne</li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>unfiltered <code>for in</code></h2>
+
+                <p>Problème avec <code>for (x in myVar)</code></p>
+
+                <ul>
+                    <li>Devrait lister les propriétés de <code>myVar</code></li>
+                    <li>Problème en cas de hijack du prototype</li>
+                    <li>Dans le doute, utiliser la méthode <code>hasOwnProperty()</code></li>
+                </ul>
+
+                <p>Mauvais&nbsp;:</p>
+
+                    <pre><code data-trim>
+for (x in myVar) {
+    console.log(x);
+}
+                    </code></pre>
+
+                <p>Bon&nbsp;:</p>
+
+                    <pre><code data-trim>
+for (x in myVar) {
+    if (myVar.hasOwnProperty(x)) {
+        console.log(x);
+    }
+}
+                    </code></pre>
+            </section>
+
+            <section>
+                <h2>uncapitalized constructors</h2>
+
+                <pre><code data-trim>
+function foo() {
+    console.log('bar');
+}
+
+function Obj() {
+    var self = this,
+        foo;
+
+    foo = function () {
+        console.log('bar');
+    };
+
+    self.foo = foo;
+}
+
+obj = new Obj();
+                </code></pre>
+
+                <ul>
+                    <li>Différencier fonction et constructeur</li>
+                    <li>Pas de limitation par le langage</li>
+                    <li>Usage d'une convention</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2><code>++</code> et <code>--</code></h2>
+
+                <ul>
+                    <li><code>i+++j</code></li>
+                    <li>La syntaxe est ambigue</li>
+                    <li>Autant ne pas l'utiliser</li>
+                    <li><strong>Mieux&nbsp;:</strong> <code>i += 1</code></li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>continue</h2>
+
+                <ul>
+                    <li>Porte à confusion</li>
+                    <li>Question performance, cf slide précédente</li>
+                </ul>
+
+                <pre><code data-trim class="javascript">
+// Bad
+while (someCondition) {
+    // Do Stuff
+
+    if (!shouldDo) {
+        continue;
+    }
+
+    // Do Other Stuff
+}
+
+// Good
+while (someCondition) {
+    // Do Stuff
+
+    if (shouldDo) {
+        // Do Other Stuff
+    }
+}
+                </code></pre>
+            </section>
+
+            <section>
+                <h2>== and !=</h2>
+
+                <pre><code data-trim class="javascript">
+// Bad
+if (1 == '1') {
+    // Do Stuff
+}
+
+// Good
+if (1 === parseInt('1', 10)) {
+    // Do Stuff
+}
+                </code></pre>
+
+                <ul>
+                    <li>Cause bugs et failles de sécurité</li>
+                    <li>Soyez sûrs de vous, utilisez <code>===</code></li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>eval</h2>
+
+                <ul>
+                    <li>Il n'y a aucune raison d'utiliser <code>eval()</code></li>
+                    <li class="fragment">Il n'y a aucune raison d'utiliser <code>eval()</code></li>
+                    <li class="fragment">Non aucune.</li>
+                    <li class="fragment">eval() is evil!</li>
+                </ul>
+            </section>
+        </section>
+
+        <section>
+            <section>
+                <h1>Les design patterns</h1>
+            </section>
+            <section>
+                <h2>Combien de caractères pour écrire tout code JS&nbsp;?</h2>
+                <h3 class="fragment">Réponse&nbsp;: 6</h3>
+            </section>
+            <section>
+                <h2>jsfuck</h2>
+                <iframe src="http://www.jsfuck.com/" frameborder="0" class="stretch" style="background-color: white;"></iframe>
+            </section>
+        </section>
+
+        <section>
+            <section>
+                <h2>IIFE</h2>
+
+                <p>Immediately-Invoked Function Expression</p>
+
+                <p><em>(Expression de Fonction Immédiatement Invoquée)</em></p>
+
+                <pre><code data-trim class="javascript">
+(function () {
+    // Run some code
+}());
+                </code></pre>
+            </section>
+
+            <section>
+                <h2>Activer <code>'use strict'</code></h2>
+
+                <pre><code data-trim class="javascript">
+(function () {
+    'use strict';
+    // Run some code
+}());
+                </code></pre>
+            </section>
+
+            <section>
+                <h2>Avoir un scope privé</h2>
+
+                <pre><code data-trim class="javascript">
+// Code here
+
+(function () {
+    'use strict';
+
+    var foo, bar;
+}());
+
+// Code there
+                </code></pre>
+            </section>
+
+            <section>
+                <h2>Faire des alias</h2>
+
+                <pre><code data-trim class="javascript">
+// Code here
+
+(function ($) {
+    'use strict';
+
+    $(document).ready(function () {
+        // Do something
+    });
+}(jQuery));
+
+// Code there
+                </code></pre>
+            </section>
+        </section>
+
+        <section>
+            <section data-background="img/indian-food.jpg">
+                <h2>Manger à l'étranger</h2>
+
+                <ul>
+                    <li>Aller dans un pays végétarien</li>
+                    <li>Avec des coupures d'électricité</li>
+                    <li>Sans garantie de chaîne du froid</li>
+                    <li>Devrais-je manger un steak&nbsp;?</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Javascript n'est pas Java</h2>
+
+                <ul>
+                    <li>Pas de steak, pas de classes</li>
+                    <li>Manger végétarien c'est bon pour le karma</li>
+                    <li>Mieux vaut s'y faire</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Scope</h2>
+
+                <p>En JS, le scope se base sur les fonctions.</p>
+
+                <pre><code data-trim class="javascript">
+var a;
+
+function foo() {
+    var b;
+
+    // I can see a and b
+}
+
+foo();
+
+// I can see a
+                </code></pre>
+
+                <p class="fragment">Sauf en ES6, <code>let</code> et <code>const</code> sont au
+                    bloc</p>
+            </section>
+
+            <section>
+                <h2>Opérateur <code>new</code></h2>
+
+                <pre><code data-trim class="javascript">
+var Obj;
+
+Obj = function () {};
+
+Obj.prototype.foo = 'bar';
+
+Obj.prototype.tellFoo = function () {
+    console.log(this.foo);
+}
+
+instance = new Obj();
+instance.tellFoo();
+
+>> "bar"
+                </code></pre>
+            </section>
+
+            <section>
+                <h2>Prototype</h2>
+
+                <pre><code data-trim class="javascript">
+var Obj;
+
+Obj = function () {};
+
+Obj.prototype.prop1 = 'vanilla';
+Obj.prototype.prop2 = 'vanilla';
+
+instance = new Obj();
+
+Obj.prototype.prop1 = 'changed';
+instance.prop2 = 'changed';
+
+console.log(instance.prop1);
+>> "changed"
+
+console.log(Obj.prototype.prop2);
+>> "vanilla"
+                </code></pre>
+            </section>
+
+            <section>
+                <h2>Membres privées</h2>
+
+                <pre><code data-trim class="javascript">
+var Obj;
+
+Obj = function () {
+        // Variables
+    var priv = 42,
+
+        // Methods
+        method;
+
+    method = function () {
+        console.log(priv);
+    }
+};
+                </code></pre>
+            </section>
+
+            <section>
+                <h2>Que devient le prototype&nbsp;?</h2>
+
+                <pre><code data-trim class="javascript">
+var Obj;
+
+Obj = function () {
+        // Variables
+    var self = this,
+        priv = 42,
+
+        // Methods
+        method;
+
+    method = function () {
+        console.log(priv);
+    }
+};
+                </code></pre>
+            </section>
+
+            <section>
+                <h2>Rendre une méthode publique</h2>
+
+                <pre><code data-trim class="javascript">
+var Obj;
+
+Obj = function () {
+        // Variables
+    var self = this,
+        priv = 42,
+
+        // Methods
+        method;
+
+    method = function () {
+        console.log(priv);
+    }
+
+    self.method = method;
+};
+                </code></pre>
+            </section>
+
+            <section>
+                <h2>Exécuter du code dans le constructeur</h2>
+
+                <pre><code data-trim class="javascript">
+Obj = function (value) {
+    var self = this,
+        priv,
+        method;
+
+    method = function () {
+        console.log(priv);
+    }
+
+    self.method = method;
+
+    (function () {
+        priv = value / 2;
+    }());
+};
+
+instance = new Obj(42);
+instance.method();
+>> 21
+                </code></pre>
+            </section>
+        </section>
+
+        <section>
+            <section>
+                <h2>Le <em>callback hell</em></h2>
+
+                <pre><code data-trim class="javascript">
+(function () {
+    'use strict';
+
+    SuperAPI.initialize(function () {
+        SuperAPI.connect(function () {
+            SuperAPI.getPermission('stuff', function onSuccess() {
+                // Do what I want to do
+            }, function onFail() {
+                // Well, nothing happens
+            });
+        });
+    });
+}());
+                </code></pre>
+            </section>
+
+            <section>
+                <h2>Mettre à plat</h2>
+
+                <pre><code data-trim class="javascript">
+init = function () {
+    SuperAPI.connect(connect);
+};
+
+connect = function () {
+    SuperAPI.getPermission('stuff', permSuccess, permFail);
+};
+
+permSuccess = function () {
+    // Do stuff
+};
+
+permFail = function () {
+    connect();
+};
+
+SuperAPI.initialize(init);
+                </code></pre>
+            </section>
+
+            <section>
+                <h2>Utiliser des promesses</h2>
+
+                <p>La promesse la plus utilisée au monde</p>
+
+                <pre class="fragment"><code data-trim class="javascript">
+$(document).ready(function () {
+    // Do stuff
+});
+                </code></pre>
+
+                <p class="fragment">Permet d'exécuter du code après qu'une certaine action soit accomplie.</p>
+
+                <p class="fragment">Le sujet est trop vaste pour en parler en 2 minutes, mais creusez&nbsp;!</p>
+            </section>
+
+            <section>
+                <h2>Utiliser des promesses en ESnext</h2>
+                <h3><code>async/await</code></h3>
+
+                <pre><code data-trim class="javascript">
+async function connect() {
+    while (!(await api.hasPermission()) {
+        await api.askPermission();
+    }
+    // Do stuff
+}
+
+// Somewhere...
+connect()
+                </code></pre>
+            </section>
+        </section>
+
+        <section>
+            <section>
+                <h1>Les Outils</h1>
+            </section>
+
+            <section>
+                <h2>Allez, du typage</h2>
+
+                <pre class="fragment javascript"><code>> [] + []</code></pre>
+                <pre class="fragment javascript"><code>''</code></pre>
+                <pre class="fragment javascript"><code>> [] + {}</code></pre>
+                <pre class="fragment javascript"><code>'[object Object]'</code></pre>
+                <pre class="fragment javascript"><code>> {} + []</code></pre>
+                <pre class="fragment javascript"><code>0</code></pre>
+                <pre class="fragment javascript"><code>> {} + {}</code></pre>
+                <pre class="fragment javascript"><code>NaN</code></pre>
+            </section>
+
+            <section data-background="img/wat2.jpg"></section>
+        </section>
+
+        <section>
+            <h2>Qualité de code</h2>
+
+            <ul>
+                <li>
+                    jslint
+                    <ul>
+                        <li>Empêche les erreurs</li>
+                    </ul>
+                </li>
+                <li>
+                    jshint
+                    <ul>
+                        <li>Petit joueur</li>
+                        <li>Détecte les erreurs</li>
+                        <li>Moins mauvais que rien</li>
+                    </ul>
+                </li>
+                <li>
+                    eslint
+                    <ul>
+                        <li>Pour ES > 5</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>yarn/npm</h2>
+
+            <p>Gestion des dépendances front/back</p>
+        </section>
+
+        <section>
+            <h2>CoffeeScript</h2>
+
+            <p>«&nbsp;CoffeeScript est un petit langage qui se compile en Javascript.&nbsp;»</p>
+
+            <pre><code data-trim>
+for filename in list
+  do (filename) ->
+    fs.readFile filename, (err, contents) ->
+      compile filename, contents.toString()
+            </code></pre>
+
+            <div class="row spacing-up">
+                <div class="col-sm-6 fragment">
+                    <h4>Contre</h4>
+                    <ul>
+                        <li>Syntaxe ambigüe</li>
+                        <li>Étape de compilation</li>
+                        <li>Maîtrise du JS exigée</li>
+                    </ul>
+                </div>
+                <div class="col-sm-6 fragment">
+                    <h4>Pour</h4>
+                    <ul>
+                        <li>Moins de caractères</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Éditeurs</h2>
+
+            <p>À utiliser pour lire un fichier ou faire une modification rapide.</p>
+
+            <div class="fragment">
+                <h4>Vim</h4>
+
+                <ul>
+                    <li>Rapide</li>
+                    <li>Puissant</li>
+                    <li>Grosse learning-curve</li>
+                    <li>Complexe à configurer</li>
+                </ul>
+            </div>
+
+            <div class="row spacing-up">
+                <div class="col-sm-6 fragment">
+                    <h4>Notepad++</h4>
+
+                    <ul>
+                        <li>Minimum vital</li>
+                        <li>Fait son travail</li>
+                        <li>Limité à Windows</li>
+                    </ul>
+                </div>
+
+                <div class="col-sm-6 fragment">
+                    <h4>Sublime</h4>
+
+                    <ul>
+                        <li>Swag</li>
+                        <li>Le nouveaux Vim</li>
+                        <li>Et intuitif</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>IDE</h2>
+
+            <div class="row">
+                <div class="col-sm-6 fragment">
+                    <h4>Eclipse</h4>
+
+                    <ul>
+                        <li>Lourd</li>
+                        <li>Buggué</li>
+                        <li>Fonctions basiques</li>
+                    </ul>
+                </div>
+
+                <div class="col-sm-6 fragment">
+                    <h4>Netbeans</h4>
+
+                    <ul>
+                        <li>Lourd</li>
+                        <li>Moche</li>
+                        <li>Fonctions basiques</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="fragment spacing-up">
+                <h4>Intellij WebStorm <em>& co</em></h4>
+
+                <ul>
+                    <li>Un peu lourd</li>
+                    <li>Stylé</li>
+                    <li>Mêmes les fonctions dont vous n'aviez pas rêvé</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h2>Tests Unitaires</h2>
+
+            <ul>
+                <li>Oui, c'est utile</li>
+                <li>Oui, ça fait gagner du temps</li>
+                <li>Teste que votre code <strong>continue</strong> de
+                    fonctionner</li>
+                <li>
+                    Librairies
+
+                    <ul>
+                        <li>Jasmine&nbsp;: coder les tests en tant que tel</li>
+                        <li>Karma&nbsp;: exécuter les tests</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Pipeline de build</h2>
+
+            <ul>
+                <li>webpack</li>
+                <li>babel</li>
+                <li>yarn</li>
+            </ul>
+        </section>
+
+        <section>
+            <section>
+                <h1>La Documentation</h1>
+            </section>
+
+            <section>
+                <h2>Un peu de typage</h2>
+
+                <pre class="fragment"><code>> Array(12).join('wat')</code></pre>
+                <pre class="fragment"><code>'watwatwatwatwatwatwatwatwatwatwat'</code></pre>
+                <pre class="fragment"><code>> Array(12).join('wat' + 1)</code></pre>
+                <pre class="fragment"><code>'wat1wat1wat1wat1wat1wat1wat1wat1wat1wat1wat1'</code></pre>
+                <pre class="fragment"><code>> Array(12).join('wat' - 1)</code></pre>
+                <pre class="fragment"><code>> Array(12).join('wat' - 1) + ' Batman!'</code></pre>
+                <pre class="fragment"><code>'NaNNaNNaNNaNNaNNaNNaNNaNNaNNaNNaN Batman!'</code></pre>
+            </section>
+
+            <section data-background="img/watman.jpg">
+            </section>
+        </section>
+
+        <section>
+            <h2>Litérature</h2>
+
+            <p>Quelques livres que je n'ai pas lu</p>
+
+            <ul>
+                <li>JavaScript: The Definitive Guide <em>(éditions O'Reilly)</em></li>
+                <li>JavaScript: The Good Parts <em>(éditions O'Reilly)</em></li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Référence en ligne</h2>
+
+            <ul>
+                <li><a href="https://developer.mozilla.org/en-US/">MDN</a> (Mozilla Developer Network)</li>
+                <li><a href="http://www.webplatform.org/">WebPlatform</a> (mais encore incomplet)</li>
+                <li><b>Proscrire</b> <a href="http://www.w3schools.com/">W3Schools</a></li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Autres resources</h2>
+
+            <blockquote>
+                <p>
+                    «&nbsp;Apprendre à programmer, c'est copier/coller les morceaux de code des autres jusqu'à
+                    les connaîtres par cœur&nbsp;»
+                </p>
+                <p style="text-align: right; width: 100%;">&mdash; Rémy Sanchez</p>
+            </blockquote>
+
+            <ul>
+                <li>Pour l'inspiration, <a href="http://codepen.io/">CodePen</a></li>
+                <li>Pour des reponses, <a href="http://stackoverflow.com/">Stack Overflow</a></li>
+            </ul>
+        </section>
+
+        <section data-background="img/got.jpg">
+            <h2>Pour apprendre l'anglais</h2>
+
+            <p><strong>Sans</strong> les sous-titres</p>
+
+            <ul>
+                <li>Westworld</li>
+                <li>Game of Thrones</li>
+                <li>Homeland</li>
+                <li>House of Cards</li>
+                <li>True Detective</li>
+                <li>Stargate SG-1</li>
+                <li>Suits</li>
+                <li>How I Met Your Mother</li>
+                <li>Friends</li>
+            </ul>
+        </section>
+
+        <section>
+            <h1>Merci de votre attention&nbsp;!</h1>
+            <h3>Reste-t-il des questions&nbsp;?</h3>
+        </section>
     </div>
 </div>
 
